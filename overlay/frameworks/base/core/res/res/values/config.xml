@@ -603,6 +603,9 @@
          As of Honeycomb, blurring is not supported anymore. -->
     <bool name="config_sf_slowBlur">false</bool>
 
+    <!-- Whether to display spectrum settings -->
+    <bool name="device_supports_spectrum">true</bool>
+
     <!-- Is the battery LED intrusive? -->
     <bool name="config_intrusiveBatteryLed">true</bool>
 
