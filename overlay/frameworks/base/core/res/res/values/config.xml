@@ -642,4 +642,10 @@
          correctly use them when installed on your device.  Otherwise, keep this disabled
          so that applications can still use their own mechanisms. -->
     <bool name="config_enableAutoPowerModes">true</bool>
+
+    <!-- Charge sysfs node and value for Adaptive charging-->
+    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
+    <string name="config_adaptiveChargingSuspendValue" translatable="false">0</string>
+    <string name="config_adaptiveChargingResumeValue" translatable="false">1</string>
+
 </resources>
