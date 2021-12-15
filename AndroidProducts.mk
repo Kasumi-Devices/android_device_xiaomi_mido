@@ -20,4 +20,3 @@ COMMON_LUNCH_CHOICES := \
     kasumi_mido-user \
     kasumi_mido-userdebug \
     kasumi_mido-eng
-

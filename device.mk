@@ -21,6 +21,7 @@ $(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-kasumi
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
