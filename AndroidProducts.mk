@@ -14,9 +14,10 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_mido.mk
+    $(LOCAL_DIR)/kasumi_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_mido-user \
-    evolution_mido-userdebug \
-    evolution_mido-eng
+    kasumi_mido-user \
+    kasumi_mido-userdebug \
+    kasumi_mido-eng
+
