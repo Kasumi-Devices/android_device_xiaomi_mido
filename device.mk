@@ -424,7 +424,3 @@ PRODUCT_COPY_FILES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# Youtube by Vanced Team
-PRODUCT_PACKAGES += \
-    Youtube
