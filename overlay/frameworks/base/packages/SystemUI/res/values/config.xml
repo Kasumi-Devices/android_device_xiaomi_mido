@@ -38,13 +38,11 @@
     <!-- Show battery icon in the QS Panel instead of in the header -->
     <bool name="config_batteryInQSPanel">true</bool>
 
-    <!-- FPSInfoService Fps file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/devices/virtual/graphics/fb0/measured_fps</string>
-
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
 
     <!-- Show the network traffic monitor on statusbar even if the device has a notch -->
     <bool name="config_forceShowNetworkTrafficOnStatusBar">true</bool>
+
 </resources>
