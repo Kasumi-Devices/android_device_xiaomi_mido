@@ -1,0 +1,24 @@
+[
+ {
+  "repository": "shashank1436/kernel_xiaomi_mido",
+  "target_path": "kernel/xiaomi/mido",
+  "remote": "github",
+  "branch": "s12staging"
+ },
+ {
+  "repository": "android_device_xiaomi_mido",
+  "target_path": "device/xiaomi/mido"
+ },
+ {
+  "repository": "RasyidAlKautsar/vendor_xiaomi_mido",
+  "target_path": "vendor/xiaomi",
+  "remote": "github",
+  "branch": "eleven"
+ },
+ {
+  "repository": "RasyidAlKautsar/MiuiCamera",
+  "target_path": "vendor/xiaomi/MiuiCamera",
+  "remote": "github",
+  "branch": "eleven"
+ }
+]
