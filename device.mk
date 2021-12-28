@@ -17,7 +17,6 @@
 $(call inherit-product, vendor/xiaomi/mido/mido-vendor.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 $(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
-$(call inherit-product, vendor/priv/build.sh)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -428,8 +427,3 @@ PRODUCT_COPY_FILES += \
 # XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
-
-# OTA
-PRODUCT_PACKAGES += \
-    Updater
-
