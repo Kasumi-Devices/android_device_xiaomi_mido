@@ -10,15 +10,7 @@
   "target_path": "device/xiaomi/mido"
  },
  {
-  "repository": "RasyidAlKautsar/vendor_xiaomi_mido",
+  "repository": "android_vendor_xiaomi_mido",
   "target_path": "vendor/xiaomi",
-  "remote": "github",
-  "branch": "eleven"
- },
- {
-  "repository": "RasyidAlKautsar/MiuiCamera",
-  "target_path": "vendor/xiaomi/MiuiCamera",
-  "remote": "github",
-  "branch": "eleven"
  }
 ]
