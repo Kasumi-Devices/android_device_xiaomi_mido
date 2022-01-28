@@ -11,9 +11,9 @@ ro.config.media_vol_steps=25
 ro.config.vc_call_vol_steps=6
 
 # Blurs
-ro.surface_flinger.supports_background_blur=1
-ro.sf.blurs_are_expensive=1
-persist.sys.sf.disable_blurs=1
+ro.surface_flinger.supports_background_blur=0
+ro.sf.blurs_are_expensive=0
+persist.sys.sf.disable_blurs=0
 
 # BPF
 ro.kernel.ebpf.supported=true
